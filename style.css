@@ -1,0 +1,28 @@
+body{
+    background-color: pink;
+
+}
+h1{
+    color: black;
+    background-color: pink;
+}
+#show{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: page;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+}
+@keyframes page{
+from{box-shadow: 1px 1px 38px rgb(255, 150, 150);}
+to{box-shadow: 1px 1px 38px rgb(240, 73, 129);}
+}
