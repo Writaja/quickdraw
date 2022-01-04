@@ -11,10 +11,13 @@ function preload(){
     
     }
     function draw(){
-    
+        strokeWeight(13);
+         stroke(0);
+          if (mouseIsPressed) 
+          { line(pmouseX, pmouseY, mouseX, mouseY);
 
     }
-    
+}
     function clear_canvas(){
         background("white");
     }
